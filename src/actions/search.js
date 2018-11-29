@@ -4,7 +4,7 @@ import changeVideo from './currentVideo.js';
 import YOUTUBE_API_KEY from '../config/youtube.js';
 
 var handleVideoSearch = (q) => {
-     
+         
   return function(dispatch) {
     
     var options = {
@@ -19,7 +19,6 @@ var handleVideoSearch = (q) => {
     });
     
   };
-  
   
 };
 
